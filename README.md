@@ -1,5 +1,4 @@
 # To-Do-App
-# To Do App
 
 ![Screenshot (136)](https://user-images.githubusercontent.com/86654213/133871761-ecf8f74d-a16a-4686-a606-3f7fc449d479.png)
 
