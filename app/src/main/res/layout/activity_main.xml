@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:fontFamily="@font/acme"
+            android:text="@string/your_tasks"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/deleteAll"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#F41D1D"
+            android:text="@string/clear_all"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/view" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="66dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#8BC34A"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:cornerRadius="20dp" />
+
+    </FrameLayout>
+</LinearLayout>

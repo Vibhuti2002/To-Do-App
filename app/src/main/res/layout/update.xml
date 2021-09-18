@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Update">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/update_details"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/enter_task_here"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB" />
+
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="@string/priority_i_e_high_medium_low"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#BFBBBB" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC34A"
+            android:text="@string/update" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F82C1D"
+            android:text="@string/delete" />
+
+    </LinearLayout>
+
+</LinearLayout>

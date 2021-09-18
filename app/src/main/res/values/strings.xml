@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="priority_i_e_high_medium_low">Priority(i.e. High, Medium, Low)</string>
+    <string name="enter_task_here">Enter Task Here</string>
+    <string name="enter_new_task">ENTER NEW TASK</string>
+    <string name="to_do">To Do</string>
+    <string name="manage_your_work">Manage Your Work</string>
+    <string name="update_details">Update Details</string>
+    <string name="enter_task">Enter Task</string>
+    <string name="priority">Priority</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="your_task_will_go_here">your task will go here</string>
+    <string name="priority_high">Priority - High</string>
+    <string name="your_task">Your Task</string>
+    <string name="x">X</string>
+    <string name="add">+</string>
+    <string name="clear_all">Clear All</string>
+    <string name="your_tasks">Your Tasks</string>
+</resources>
